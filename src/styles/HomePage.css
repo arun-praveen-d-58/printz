@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Manrope', sans-serif;
   }
@@ -302,4 +303,245 @@ body {
     background-color: #FB5711;
  }
 
+}
+
+.popular-products {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+  text-align: left;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  text-align: center;
+}
+
+.image-container {
+  background: #fff;
+  border: 2px solid #9C5FFF;
+  border-radius: 10px;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px 2px rgba(179, 156, 219, 0.5);
+  transition: transform 0.3s;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+}
+
+.product-title {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+  text-decoration: none;
+}
+
+.image-container:hover {
+  transform: translateY(-10px);
+}
+
+.custom-packaging {
+  display: flex;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.custom-packaging .content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.custom-packaging .content h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.custom-packaging .content p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.custom-packaging .shop-now-btn {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.custom-packaging .shop-now-btn:hover {
+  background-color: #e55b00;
+}
+
+.custom-packaging .images-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.custom-packaging .images-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.printz-picks {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-header h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.see-all-btn {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sub-title {
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  text-align: center;
+}
+
+.image-container {
+  background: #fff;
+  border: 2px solid #9C5FFF;
+  border-radius: 10px;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px 2px rgba(179, 156, 219, 0.5);
+  transition: transform 0.3s;
+  position: relative;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.product-title {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+  text-decoration: none;
+}
+
+.product-title .arrow {
+  font-size: 16px;
+  color: #333;
+  margin-left: 5px;
+}
+
+.product-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.image-container:hover {
+  transform: translateY(-10px);
+}
+
+.discount {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #9C5FFF;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.free-sample {
+  padding: 100px 20px;
+  background-color: #847E8C;
+  text-align: center;
+}
+
+.free-sample .sample-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.free-sample .sample-content h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.free-sample .sample-content p {
+  font-size: 18px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.free-sample .request-now-btn {
+  background-color: #FB5711;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.free-sample .request-now-btn:hover {
+  background-color: #e04b0e;
 }
